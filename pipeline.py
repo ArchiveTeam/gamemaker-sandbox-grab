@@ -57,10 +57,10 @@ if not WGET_LUA:
 #
 # Update this each time you make a non-cosmetic change.
 # It will be added to the WARC files and reported to the tracker.
-VERSION = "20141013.50"
+VERSION = "20141014.01"
 USER_AGENT = 'ArchiveTeam'
 TRACKER_ID = 'gamemakersandbox'
-TRACKER_HOST = 'localhost:9080'
+TRACKER_HOST = 'tracker.archiveteam.org'
 
 
 ###########################################################################
@@ -223,7 +223,7 @@ class WgetArgs(object):
 project = Project(
     title="gamemakersandbox",
     project_html="""
-        <img class="project-logo" alt="Project logo" src="http://archiveteam.org/images/thumb/2/2c/New_gamemaker_logo.png/800px-New_gamemaker_logo.png" height="50px" title="/>
+        <img class="project-logo" alt="Project logo" src="http://archiveteam.org/images/thumb/2/2c/New_gamemaker_logo.png/800px-New_gamemaker_logo.png" height="50px" title="">
         <h2>GameMaker Sandbox
         <span class="links">
         <a href="http://sandbox.yoyogames.com/">Website</a> &middot;
