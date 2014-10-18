@@ -37,7 +37,7 @@ wget.callbacks.get_urls = function(file, url, is_css, iri)
   if string.match(url, "/download") then
       html = read_file(file)
     
-      local link = string.match(html, '<a href="(/games/[%w_-]+/send_download%?code=[%w]+)">')
+      local link = string.match(html, '<a href="(/games/[^/]+/send_download%?code=[%w]+)">')
       link = 'http://sandbox.yoyogames.com' .. link
       
       table.insert(urls, { url=link })
