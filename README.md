@@ -3,7 +3,7 @@ gamemaker-sandbox-grab
 
 Grabbing sandbox.yoyogames.com
 
-More information about the archiving project can be found on the ArchiveTeam wiki: [GameMaker Sandbox](http://archiveteam.org/index.php?title=GameMaker Sandbox)
+More information about the archiving project can be found on the ArchiveTeam wiki: [GameMaker Sandbox](http://archiveteam.org/index.php?title=GameMaker_Sandbox)
 
 Setup instructions
 =========================
